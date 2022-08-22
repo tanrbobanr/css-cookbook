@@ -107,37 +107,37 @@ In the above case, `5em` would be equavlent to `70px`.
 *`margin` can simply be replaced with `padding` in any of the below examples; they have the same value syntax. Additionally, `auto` can be used in place of any length, in which case the browser will decide a suitable margin to use.*
 ```css
 {
-    margin        : <top_right_bottom_left_len>;
-    margin        : <top_bottom_len> <left_right_len>;
-    margin        : <top_len> <right_len> <bottom_len> <left_len>;
-    margin-<side> : <len>;
+    margin        : len
+    margin        : top_btm_len lft_rgt_len;
+    margin        : top_len rgt_len btm_len lft_len;
+    margin-[side] : len;
 }
 ```
 **Borders**
 ```css
 {
-    border                 : <len> <style> <color>;
-    border-<side>          : <len> <style> <color>;
+    border                 : len stl clr;
+    border-[side]          : len stl clr;
     
-    border-style           : <style>
-    border-style           : <top_bottom_style> <left_right_style>;
-    border-style           : <top_style> <right_style> <bottom_style> <left_style>;
-    border-<side>-style    : <style>
+    border-style           : stl;
+    border-style           : top_btm_stl lft_rgt_stl;
+    border-style           : top_stl rgt_stl btm_stl lft_stl;
+    border-[side]-style    : stl;
     
-    border-color           : <color>
-    border-color           : <top_bottom_color> <left_right_color>;
-    border-style           : <top_color> <right_color> <bottom_color> <left_color>;
-    border-<side>-color    : <color>
+    border-color           : clr;
+    border-color           : top_btm_clr lft_rgt_clr;
+    border-color           : top_clr rgt_clr btm_clr lft_clr;
+    border-[side]-color    : clr;
 
-    border-width           : <len>;
-    border-width           : <top_bottom_len> <left_right_len>;
-    border-width           : <top_len> <right_len> <bottom_len> <left_len>;
-    border-<side>-width    : <width>
+    border-width           : len;
+    border-width           : top_btm_len lft_rgt_len;
+    border-width           : top_len rgt_len btm_len lft_len;
+    border-[side]-width    : len;
 
-    border-radius          : <radius>
-    border-radius          : <topleft_bottomright_len> <topright_bottomleft_len>;
-    border-radius          : <topleft_len> <topright_len> <bottomright_len> <bottomleft_len>;
-    border-<corner>-radius : <len>
+    border-radius          : len;
+    border-radius          : toplft_btmrgt_len toprgt_btmlft_len;
+    border-radius          : toplft_len toprgt_len btmrgt_len btmlft_len;
+    border-<corner>-radius : len;
 }
 ```
 **Box sizing**
