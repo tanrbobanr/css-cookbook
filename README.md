@@ -103,6 +103,7 @@ In the above case, `5em` would be equavlent to `70px`.
 }
 ```
 **Margins & Padding**
+
 *`margin` can simply be replaced with `padding` in any of the below examples; they have the same value syntax. Additionally, `auto` can be used in place of any length, in which case the browser will decide a suitable margin to use.*
 ```css
 {
