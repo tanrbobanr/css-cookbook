@@ -21,8 +21,14 @@ Aditionally, there are **combined selectors**
 ```css
 section cls1 p.cls2 span#id1 {}
 ```
-In the above case, the only elements being affected would be `<span>`s with an id of `id1` that are within a `<p>` with a class of `cls2` that are within any element with the `cls1` class that are in any `<section>`.
-
+In the above case, the only elements being affected would be `<span>`s with an id of `id1` that are within a `<p>` with a class of `cls2` that are within any element with the `cls1` class that are in any `<section>`. E.g.
+```html
+<section>
+    <div class="cls1">
+        <p class="cls2"> Some<span id="1">thing</span></p>
+    </div>
+</section>
+```
 Id selectors take precendence over class selectors during styling conflicts, and similarly, class selectors take precendence over type selectors. Combined selectors other selectors depending on their specificity weight (`idsI`-`classesI`-`typesI`). In the above combined example, it would have a specificity weight of `1-2-3` (1 id, 2 classes, 3 types).
 
 # Colors
