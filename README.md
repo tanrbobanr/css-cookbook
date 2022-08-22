@@ -1,3 +1,5 @@
+# Resets
+Here's [Eric Meyer's reset](https://meyerweb.com/eric/tools/css/reset/).
 # Selectors
 There are three main selector types:
 
