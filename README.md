@@ -25,7 +25,7 @@ In the above case, the only elements being affected would be `<span>`s with an i
 ```html
 <section>
     <div class="cls1">
-        <p class="cls2"> Some<span id="1">thing</span></p>
+        <p class="cls2"> Some<span id="id1">thing</span></p>
     </div>
 </section>
 ```
